@@ -17,7 +17,7 @@ def menu():
 def dado_um(v):
     try:
         da = randint(1, v)
-        print(da)
+        print(f'd{v} {da}')
     except:
         print('comando invalido')
 
@@ -27,7 +27,12 @@ def dado_varios(v, c):
     try:
         for v in range(0, v):
             list.append(randint(1, c))
-        print(list)
+        cont = 0
+        for v in list:
+            cont = cont + v
+
+        print(f' d{c}x{len(list)} {list} = {cont}')
+        
     except:
         print('comando invalido')
         
