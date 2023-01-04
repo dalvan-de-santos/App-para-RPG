@@ -64,7 +64,7 @@ def regras():
             break
 
         elif op == 1:
-            print('*******\033[1;34mRolagens basicas\033[m********')
+            print('>>>>\033[1;34mRolagens basicas\033[m>>>>>>')
             print('''A rolagem de dados, assim como em qualquer outro RPG,\n 
 é uma parte fundamental das regras d&d 5e.
 Antes de saber como usar os dados,
@@ -78,17 +78,18 @@ a dinâmica de duas rolagens básicas:''')
 
         
         elif op == 2:
-            print('*******\033[1;34mAtaque\033[m********')
+            print('>>>>>\033[1,34mATAQUE\033[m')
             print('''D20 (Dado de vinte faces) + modificador de atributo + 
 proficiência com arma ou magia + modificadores situacionais. 
 Todos estes itens estão descritos em sua ficha de personagem.
-Se o total for igual ou maior que o CA (Classe de armadura) do seu inimigo, o ataque acerta.''')
+Se o total for igual ou maior que o CA (Classe de armadura) 
+do seu inimigo, o ataque acerta.''')
             input('>> ')
             os.system('cls')
 
         
         elif op == 3:
-            print('*******\033[1;34mTestes genéricos\033[m********')
+            print('>>>>\033[1,34mTestes genéricos\033[m')
             print('''D20 + modificador de atributo + modificadores  de circunstâncias.
 
 Estes testes são utilizados para as mais variadas ocasiões e 
@@ -101,7 +102,7 @@ o mestre pode impor uma desvantagem, por exemplo''')
         
 
         elif op == 4:
-            print('*******\033[1;34mMecânicas básicas\033[m********')
+            print('>>>>>\033[1,34mMecânicas básicas\033[m')
             print('''A mecânica básicas de todos os RPGs 
 é a de criar e interpretar um personagem,
 fazendo com que ele evolua durante a partida.
@@ -113,7 +114,7 @@ Nas regras d&d 5e as mecânicas básicas presentes são:''')
 
         
         elif op == 5:
-            print('*******\033[1;34mVantagem e desvantagem\033[m********')
+            print('>>>>>\033[1,34mVantagem e desvantagem*\033[m')
             print('''Para calcular a vantagem é necessário rolar 2d20 
 (dois dados de 20 faces) e ficar com o maior resultado. 
 Já a desvantagem se torna o pior resultado obtido.
@@ -128,7 +129,7 @@ você está procurando uma trilha em uma mata fechada e
 
         
         elif op == 6:
-            print('*******\033[1;34mInspiração\033[m********')
+            print('>>>>>\033[1,34mInspiração\033[m')
             print('''Inspiração é quando o jogador consegue interpretar 
 seu personagem como definido pelos seus ideais, 
 vínculos, habilidades e etc. Ao fazer isso corretamente, 
@@ -141,7 +142,7 @@ se assim o mestre preferir.''')
 
         
         elif op == 7:
-            print('*******\033[1;34mTestes passivos\033[m********')
+            print('>>>>>>>\033[1,34mTestes passivos\033[m')
             print('''Segundo as regras d&d 5e, 
 teste passivo é um tipo de teste em que não é envolvido 
 a rolagem de dados. Podendo representar o resultado 
@@ -155,7 +156,7 @@ Por exemplo: digamos que o Ranger do grupo tem uma percepção de 17''')
         
 
         elif op == 8:
-            print('*******\033[1;34mAções livres\033[m********')
+            print('>>>>>\033[1,34mAções livres\033[m')
             print('''Sacar sua arma, pegar uma poção da mochila e etc. 
 Execuções  desse tipo não precisam de uma ação''')
             input('>> ')
@@ -163,7 +164,8 @@ Execuções  desse tipo não precisam de uma ação''')
 
         
         elif op == 9:
-            print('*******\033[1;34mReações\033[m********')
+            
+            print('>>>>\033[1,34mReações\033[m')
             print('''É permitido apenas uma reação por rodada. 
 Para ter outra reação, é necessário esperar o início do seu próximo
 turno.Essas são algumas das principais regras d&d 5e. 
